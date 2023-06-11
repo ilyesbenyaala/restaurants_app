@@ -1,0 +1,131 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/lisbon.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: rgba(80, 58, 58, 0.8); /* Adjust the alpha value for transparency */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header img {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+    body {
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .container h2 {
+      text-align: center;
+    }
+
+    .container p {
+      text-align: justify;
+    }
+    .container ul li {
+      list-style:inside;
+      padding: 0;
+      margin: 0;
+    }
+    .container ul li p {
+      list-style:inside;
+      text-align: center;
+    }
+    
+    .cuisine-name {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    
+    #restaurant-container {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    
+    .centered-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #restaurant-container {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center; 
+    }
+    
+    #restaurant-container p {
+      justify-content: center;
+      
+      text-align: center;
+    }
+    
+  
+  
